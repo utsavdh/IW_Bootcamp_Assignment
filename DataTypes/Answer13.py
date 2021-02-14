@@ -1,0 +1,5 @@
+string_input = input("Enter comma separated word sequence:")
+sorted_word_list = sorted(string_input.split(","))
+unique_words = set(sorted_word_list)
+print(unique_words)
+print(",".join(list(unique_words)))
