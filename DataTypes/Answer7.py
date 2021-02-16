@@ -1,3 +1,6 @@
+# 7.Write a Python function that takes a list of words and returns the length of the
+# longest one.
+
 string_input=input("Enter any string")
 list=string_input.split()
 length_list=[]
